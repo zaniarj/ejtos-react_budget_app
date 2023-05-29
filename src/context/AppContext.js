@@ -70,12 +70,6 @@ export const AppReducer = (state, action) => {
             return {
                 ...state
             }
-        case "SET_TOTAL":
-            action.type="DONE";
-            state.total = action.payload;
-            return{
-                ...state
-            }
 
         default:
             return state;
